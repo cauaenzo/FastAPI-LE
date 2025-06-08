@@ -2,7 +2,7 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
-@app.get("/dog")
+@app.get("/")
 def get_dog():
     dog = {
         "name": "Rex",
